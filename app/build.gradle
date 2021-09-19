@@ -5,6 +5,11 @@ plugins {
 
 android {
     compileSdk 31
+    buildToolsVersion "30.0.3"
+
+    buildFeatures {
+        viewBinding true
+    }
 
     defaultConfig {
         applicationId "com.example.quizapp"
